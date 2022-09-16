@@ -140,6 +140,7 @@ main{
 }
 .task textarea{
     margin-top: 9px;
+    width: 110px;
     min-height: 120px;
     max-height: 120px;
     overflow-y: scroll;
