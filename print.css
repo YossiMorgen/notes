@@ -1,0 +1,23 @@
+form, button{
+    display: none;
+}
+
+body{
+    text-align: center;
+
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+section{
+    flex-grow: 1;
+
+    border: 2px solid;
+    display: inline-block;
+    padding: 5px;
+}
