@@ -15,7 +15,7 @@ if(!localStorage.getItem(`id`)){
 
 function currentDatime(){
     let today = new Date();
-       document.getElementById("date").value = today.getFullYear() + '-' + ('0' + (today.getMonth() + 1)).slice(-2) + '-' + ('0' + today.getDate()).slice(-2);
+        document.getElementById("date").value = today.getFullYear() + '-' + ('0' + (today.getMonth() + 1)).slice(-2) + '-' + ('0' + today.getDate()).slice(-2);
         document.getElementById("time").value =  ('0' + today.getHours()).slice(-2) + ':' + ('0' + (today.getMinutes() )).slice(-2);      
     
 }
@@ -33,6 +33,7 @@ function validForm(){
 
     document.getElementById("form").reset();
     txtinp.focus();
+    currentDatime();
 }
 
 function getTasks(){
